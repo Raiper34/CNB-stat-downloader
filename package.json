@@ -1,0 +1,13 @@
+{
+    "name": "Printer Data XML2CSV Converter",
+    "version": "1.0.0",
+    "main": "index.html",
+    "window": {
+        "frame": true,
+        "toolbar": true,
+        "width": 350,
+        "height": 550,
+        "resizable": false,
+        "node-remote": "*"
+    }
+}
