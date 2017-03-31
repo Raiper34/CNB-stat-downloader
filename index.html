@@ -27,17 +27,38 @@
         <div class="container">
             <div class="row">
                 <div class="col s12">
-                    
+
                 </div>
             </div>
             <div class="row">
                 <div class="col s12">
-                    <input type="date" class="datepicker">
+                    <label for="date">Date from:</label>
+                    <input type="date" id="datepickerFrom">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <label for="date">Date to:</label>
+                    <input type="date" id="datepickerTo">
                 </div>
             </div>
             <div class="row">
                 <div class="col s12">
                     <button type="button" class="btn teal" id="downloadButton">Download</button>
+                </div>
+            </div>
+            <div class="row" id="progress">
+                <div class="col s12">
+                    <div class="progress">
+                        <div class="indeterminate"></div>
+                    </div>
+                </div>
+                <div class="col s12">
+                    <div class="card teal darken-4">
+                        <div class="card-content white-text" id="progressText">
+                            Working
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@
         "frame": true,
         "toolbar": true,
         "width": 350,
-        "height": 550,
+        "height": 600,
         "resizable": false,
         "node-remote": "*"
     }
